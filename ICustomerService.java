@@ -1,8 +1,8 @@
 package model;
 
 public interface ICustomerService{
-    public String getCustomerServiceSRVC();
-    public Double getCustomerServiceLD();
     public CustomerServiceSRVC getCustomerServiceSRVC();
-    public boolean onIdle();
+    public LoadDynamiks<KSpeed, OnKPh<NonNullifiableObj, Aggregate>> getCustomerSRVCLoadDynamiks(MatterObj matter);
+    public KStable onPredicate(Predicate predicate);
+    private UpTempo heartBeat(HashTree<String payLoad> unidentifiableObj);
 }
