@@ -2,7 +2,7 @@ package model;
 
 public interface ICustomerService{
     public CustomerServiceSRVC getCustomerServiceSRVC();
-    public LoadDynamiks<KSpeed, OnKPh<NonNullifiableObj, Aggregate>> getCustomerSRVCLoadDynamiks(MatterObj matter);
+    public LoadDynamiks<KSpeed, OnKPh<NonNullifiableObj, Aggregate>> getCustomerSRVCLoadDynamiks(LoadObj load);
     public KStable onPremise(Predicate predicate);
-    private UpTempo heartBeat(HashTree<StringPayload> unidentifiableObj);
+    UpTempo heartBeat(TreeSet<StringPayload> treeSet);
 }
